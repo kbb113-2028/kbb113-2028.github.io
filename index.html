@@ -3,98 +3,171 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Keren Benaojan | Portfolio</title>
+  <meta name="description" content="Personal portfolio of Keren Benaojan, Supply Chain Management and Finance student.">
+  <title>Keren Benaojan | Supply Chain & Finance Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <h1>Keren Benaojan</h1>
-      <p class="subtitle">Supply Chain Management and Finance Student</p>
+  <header class="hero">
+    <nav class="navbar">
+      <a class="logo" href="#home">KJ</a>
 
-      <nav>
+      <div class="nav-links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-      </nav>
+      </div>
+    </nav>
+
+    <div class="hero-content" id="home">
+      <p class="eyebrow">SUPPLY CHAIN MANAGEMENT • FINANCE</p>
+      <h1>Keren Benaojan</h1>
+      <p class="hero-text">
+        I am a Supply Chain Management and Finance student who uses analytical,
+        financial, and problem-solving skills to improve business operations
+        and support informed decision-making.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="button button-primary" href="#projects">View My Projects</a>
+        <a class="button button-outline" href="#contact">Contact Me</a>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section id="about">
-      <h2>Personal Statement</h2>
-      <p>
-        I am a Supply Chain Management and Finance student who uses analytical,
-        financial, and problem-solving skills to improve business operations and
-        support informed decision-making.
-      </p>
+  <main>
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="section-label">01 — ABOUT ME</p>
+        <h2>Business student focused on practical solutions.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a college student studying Supply Chain Management and Finance.
+            I am interested in how organizations use planning, financial data,
+            technology, and teamwork to make better decisions.
+          </p>
+
+          <p>
+            Through coursework and team projects, I have developed experience
+            in supply chain scenario planning, accounting analysis, professional
+            communication, cybersecurity awareness, and business problem-solving.
+          </p>
+        </div>
+
+        <div class="focus-card">
+          <p class="focus-title">Career Interests</p>
+          <ul>
+            <li>Supply chain operations</li>
+            <li>Business and financial analysis</li>
+            <li>Inventory and demand planning</li>
+            <li>Smart manufacturing technology</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="section-label">02 — SKILLS</p>
+        <h2>Skills I bring to the workplace.</h2>
+      </div>
 
       <div class="skills-grid">
-        <div class="skill-card">Supply Chain Planning</div>
-        <div class="skill-card">Financial Analysis</div>
-        <div class="skill-card">Managerial Accounting</div>
-        <div class="skill-card">Microsoft Excel</div>
-        <div class="skill-card">Power BI</div>
-        <div class="skill-card">Inventory Management</div>
-        <div class="skill-card">Business Communication</div>
-        <div class="skill-card">Team Collaboration</div>
-        <div class="skill-card">Problem-Solving</div>
-        <div class="skill-card">Cybersecurity Awareness</div>
+        <article class="skill-card">
+          <div class="skill-icon">📦</div>
+          <h3>Supply Chain</h3>
+          <p>Supply chain planning, inventory management, operational risk, and scenario analysis.</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">📊</div>
+          <h3>Finance & Accounting</h3>
+          <p>Managerial accounting, financial analysis, budgeting, and cost evaluation.</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Business Technology</h3>
+          <p>Microsoft Excel, Power BI, data organization, and cybersecurity awareness.</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🤝</div>
+          <h3>Professional Skills</h3>
+          <p>Business communication, teamwork, stakeholder analysis, and problem-solving.</p>
+        </article>
       </div>
     </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-
-      <div class="project-card">
-        <h3>Supply Chain Scenario Planning Project</h3>
-        <p>
-          Collaborated with a team to analyze a supply chain disruption,
-          identify operational risks, and recommend solutions involving
-          inventory planning, supplier communication, and business continuity.
-        </p>
-        <a href="#" target="_blank">View Project Materials</a>
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="section-label">03 — PROJECTS</p>
+        <h2>Selected academic projects.</h2>
       </div>
 
-      <div class="project-card">
-        <h3>Managerial Accounting Analysis</h3>
-        <p>
-          Evaluated costs, budgeting information, and business performance data
-          to support management decisions and improve financial planning.
-        </p>
-        <a href="#" target="_blank">View Project Materials</a>
-      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-number">01</div>
+          <p class="project-category">SUPPLY CHAIN MANAGEMENT</p>
+          <h3>Supply Chain Scenario Planning</h3>
+          <p>
+            Collaborated with a team to evaluate a supply chain disruption,
+            identify operational risks, and recommend solutions involving
+            inventory planning, supplier communication, and business continuity.
+          </p>
+          <p class="project-tools">Skills: Risk analysis, inventory planning, teamwork</p>
+          <a class="project-link" href="#" target="_blank">Project materials coming soon →</a>
+        </article>
 
-      <div class="project-card">
-        <h3>Industry 4.0 and Cybersecurity Project</h3>
-        <p>
-          Examined how automation, smart manufacturing, and cybersecurity
-          practices affect operational efficiency, risk management, and supply
-          chain resilience.
-        </p>
-        <a href="#" target="_blank">View Project Materials</a>
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <p class="project-category">FINANCE & ACCOUNTING</p>
+          <h3>Managerial Accounting Analysis</h3>
+          <p>
+            Evaluated costs, budgeting information, and business performance
+            data to support management decisions and improve financial planning.
+          </p>
+          <p class="project-tools">Skills: Cost analysis, budgeting, financial decision-making</p>
+          <a class="project-link" href="#" target="_blank">Project materials coming soon →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <p class="project-category">TECHNOLOGY & OPERATIONS</p>
+          <h3>Industry 4.0 and Cybersecurity</h3>
+          <p>
+            Examined how automation, connected manufacturing systems, and
+            cybersecurity practices affect operational efficiency, risk
+            management, and supply chain resilience.
+          </p>
+          <p class="project-tools">Skills: Research, cybersecurity awareness, Industry 4.0</p>
+          <a class="project-link" href="#" target="_blank">Project materials coming soon →</a>
+        </article>
       </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
+    <section class="contact-section" id="contact">
+      <p class="section-label contact-label">04 — CONTACT</p>
+      <h2>Let’s connect.</h2>
       <p>
-        Connect with me on
-        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-        or view my work on
-        <a href="https://github.com/" target="_blank">GitHub</a>.
+        I am building my professional experience in supply chain management,
+        finance, and business technology.
       </p>
+
+      <div class="contact-buttons">
+        <a class="button button-primary" href="https://www.linkedin.com/" target="_blank">LinkedIn Profile</a>
+        <a class="button button-light" href="https://github.com/" target="_blank">GitHub Profile</a>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Keren Benaojan | Personal Portfolio</p>
+    <p>© 2026 Keren Benaojan · Supply Chain Management & Finance</p>
   </footer>
 </body>
 </html>
